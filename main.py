@@ -98,3 +98,39 @@ exam_results = [23, 78, 96, 32, 53, 67, 23, 98, 33, 38, 45, 39, 86, 12, 43, 45]
 
 --- 
 """
+# 1.
+# monthly_spending = [2689.56, 2770.38, 2394.04, 2099.91, 3182.20, 3267.12, 1746.83, 2545.72, 3328.20, 3147.30, 2462.61, 3890.45]
+# for i in monthly_spending:
+#     first_sem = sum(monthly_spending[:6])/6
+#     last_sem = sum(monthly_spending[6:])/6
+#     print(first_sem)
+#     print(last_sem)
+# 2.
+# john_monthly_spending = [2689.56, 2770.38, 2394.04, 2099.91, 3182.20, 3267.12, 1746.83, 2545.72, 3328.20, 3147.30, 2462.61, 3890.45]
+# sam_monthly_spending = [1969.62, 3939.37, 2241.59, 3968.27, 3068.80, 1755.02, 3885.66, 2491.67, 3828.49, 3171.32, 2771.32, 3380.37]
+# john = 0
+# sam = 0
+# for i in range(12):
+#     if john_monthly_spending[i] > sam_monthly_spending[i]:
+#         john += 1
+#     elif john_monthly_spending[i] < sam_monthly_spending[i]:
+#         sam += 1
+# print(john)
+# print(sam)
+# 3.
+# paul_friends = ["Mary", "Tim", "Mike", "Henry"]  
+# tina_friends = ["Tim", "Susan", "Mary", "Josh"]
+# friends = list((set(paul_friends+tina_friends)))
+# print(friends)
+# 4.
+# paul_friends = ["Mary", "Tim", "Mike", "Henry"]  
+# tina_friends = ["Tim", "Susan", "Mary", "Josh"]
+# friends = set(paul_friends) & set(tina_friends)
+# print(friends)
+# 5.
+football_players = {"Eve", "Tom", "Richard", "Peter"}  
+volleyball_players = {"Jack", "Hugh", "Peter", "Sam"}  
+basketball_players = {"Eve", "Richard", "Jessica", "Sam", "Michael"}
+basketball = if set(basketball_players) == set(football_players) & set(volleyball_players)
+    print
+
