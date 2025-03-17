@@ -128,9 +128,54 @@ exam_results = [23, 78, 96, 32, 53, 67, 23, 98, 33, 38, 45, 39, 86, 12, 43, 45]
 # friends = set(paul_friends) & set(tina_friends)
 # print(friends)
 # 5.
-football_players = {"Eve", "Tom", "Richard", "Peter"}  
-volleyball_players = {"Jack", "Hugh", "Peter", "Sam"}  
-basketball_players = {"Eve", "Richard", "Jessica", "Sam", "Michael"}
-basketball = if set(basketball_players) == set(football_players) & set(volleyball_players)
-    print
-
+# football_players = {"Eve", "Tom", "Richard", "Peter"}  
+# volleyball_players = {"Jack", "Hugh", "Peter", "Sam"}  
+# basketball_players = {"Eve", "Richard", "Jessica", "Sam", "Michael"}
+# basketball = basketball_players - (football_players | volleyball_players)
+# print(basketball)
+# 6.
+# from collections import Counter
+# poll_results = ["Python", "Java", "Javascript", "Python", "Javascript", "Python", "C", "Python", "Python", "C", "Javascript"]
+# vote_count = Counter(poll_results)
+# print(vote_count)
+# 7.
+# scores = [('Mike', 10), ('Mike', 8), ('Mike', 6), ('John', 7), ('John', 8), ('John', 5), ('Tom', 8), ('Tom', 9), ('Tom', 8)]
+# total_scores = {}
+# for player, score in scores:
+#     if player in total_scores:
+#         total_scores[player] += score
+#     else:
+#         total_scores[player] = score
+# print(total_scores)
+# 8.
+# numbers = [10, 3, 5, 9, 18, 3, 0, 7]
+# def math():
+#     max_value = max(numbers)
+#     total_sum = sum(numbers)
+#     average = total_sum / len(numbers)
+#     allnumbers = max_value, total_sum, average
+#     return(allnumbers)
+# print(math())
+# 9.
+# word_list = ["apple", "airplane", "carrot", "elephant", "guitar", "moonlight"]
+# longest_word = word_list
+# for word in word_list:
+#     if len(word) > len(longest_word):
+#         longest_word = word
+# shortest_word = word_list
+# for word in word_list:
+#     if len(word) < len(shortest_word):
+#         shortest_word = word
+# print(longest_word)
+# print(shortest_word)
+# 10.
+# number_list = [5, 8, 2, 7, 3, 5, 6, 9, 2, 4, 8, 7, 1, 5, 3]
+# new_number_list = set(number_list)
+# result_number_list = []
+# for i in new_number_list:
+#     if (number_list.count(i) >= 3):
+#         result_number_list.append(i)
+# print(result_number_list)
+# 11.
+# exam_results = [23, 78, 96, 32, 53, 67, 23, 98, 33, 38, 45, 39, 86, 12, 43, 45]
+# print(sorted(exam_results)[-2])
